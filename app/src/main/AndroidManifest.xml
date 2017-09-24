@@ -30,6 +30,34 @@
                 <category android:name="android.intent.category.LEEHQ_SAMPLE_CODE" />
             </intent-filter>
         </activity>
+
+        <activity android:name="com.leehq.sample.glide.FirstGlideActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.LEEHQ_SAMPLE_CODE"/>
+                <category android:name="android.intent.category.LEEHQ_SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.leehq.activity.LifecycleTestActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.LEEHQ_SAMPLE_CODE"/>
+                <category android:name="android.intent.category.LEEHQ_SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.leehq.sample.rxandroid.RxAndroidActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.LEEHQ_SAMPLE_CODE"/>
+                <category android:name="android.intent.category.LEEHQ_SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.leehq.sample.rxandroid.CheeseActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.LEEHQ_SAMPLE_CODE"/>
+                <category android:name="android.intent.category.LEEHQ_SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

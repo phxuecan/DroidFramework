@@ -20,7 +20,7 @@
  * THE SOFTWARE.
  */
 
-package com.raywenderlich.cheesefinder;
+package com.leehq.sample.rxandroid;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;

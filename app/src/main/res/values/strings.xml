@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">FirstRetrofit</string>
+    <string name="hello_glide">hello glide</string>
+    <string name="btn_run_scheduler">run scheduler</string>
+    <string name="search">search</string>
+    <string name="nothing_found">not found</string>
 </resources>

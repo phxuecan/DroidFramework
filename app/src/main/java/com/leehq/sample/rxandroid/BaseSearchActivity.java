@@ -20,10 +20,9 @@
  * THE SOFTWARE.
  */
 
-package com.raywenderlich.cheesefinder;
+package com.leehq.sample.rxandroid;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -32,6 +31,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Toast;
+
+import com.leehq.retrofit.R;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -46,7 +47,7 @@ public abstract class BaseSearchActivity extends AppCompatActivity {
   private ProgressBar mProgressBar;
 
   @Override
-  protected void onCreate(@Nullable Bundle savedInstanceState) {
+  protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_cheeses);
 

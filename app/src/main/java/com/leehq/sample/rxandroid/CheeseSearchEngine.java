@@ -20,7 +20,7 @@
  * THE SOFTWARE.
  */
 
-package com.raywenderlich.cheesefinder;
+package com.leehq.sample.rxandroid;
 
 import java.util.LinkedList;
 import java.util.List;
